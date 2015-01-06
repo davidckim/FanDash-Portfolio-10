@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+  <h1>Welcome to FanDash</h1>
+  <form action="/select_teams" class="newuser" method="post">
+    <p>Please Enter Your Name: <input type="text" name="fullname"></p>
+    <br>
+    <br>
+    <h2>Please Select Your Favorite Football Team</h2>
+      <%= erb :"/teams/football" %>
+    <h2>Please Select Your Favorite Basketball Team</h2>
+      <%= erb :"/teams/basketball" %>
+    <h2>Please Select Your Favorite Baseball Team</h2>
+      <%= erb :"/teams/baseball" %>
+    <h2>Please Select Your Favorite Hockey Team</h2>
+      <%= erb :"/teams/hockey" %>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
